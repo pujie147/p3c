@@ -14,6 +14,7 @@
         <priority>3</priority>
     </rule>
 
+    <!-- 2.1.14 -->
     <rule name="AbstractClassShouldStartWithAbstractNamingRule"
           language="java"
           since="1.4"
@@ -54,6 +55,7 @@
         </example>
     </rule>
 
+    <!-- 2.1.14 -->
     <rule name="ExceptionClassShouldEndWithExceptionRule"
           language="java"
           since="1.6"
@@ -68,7 +70,7 @@
         </example>
     </rule>
 
-
+    <!-- 2.1.14 -->
     <rule name="TestClassShouldEndWithTestNamingRule"
           language="java"
           since="1.6"
@@ -119,6 +121,7 @@
         </example>
     </rule>
 
+    <!--2.1.12-->
     <rule name="ServiceOrDaoClassShouldEndWithImplRule"
           language="java"
           since="1.6"
@@ -171,7 +174,7 @@
             ]]>
         </example>
     </rule>
-
+    <!--2.1.15-->
     <rule name="ArrayNamingShouldHaveBracketRule"
           language="java"
           since="1.6"
