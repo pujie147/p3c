@@ -104,6 +104,11 @@
     <entry key="java.naming.ArrayNamingShouldHaveBracketRule.rule.msg">
         <![CDATA[Brackets are a part of an Array type. The definition could be: String[] args]]>
     </entry>
+    <entry key="java.naming.DaoOrServiceMethodNamingRule.violation.msg">
+        <![CDATA[ Service/DAO method naming prefix (get|find|get|save|delete|update) and (findxxxList|getxxxCount|getXXXByXXX|findXXListByXXX)]]>
+    </entry>
+
+
     <entry key="java.concurrent.AvoidUseTimerRule.violation.msg">Use ScheduledExecutorService instead.</entry>
     <entry key="java.concurrent.AvoidUseTimerRule.rule.msg">
         <![CDATA[Run multiple TimeTask by using ScheduledExecutorService rather than Timer because Timer will kill all running threads in case of failing to catch exceptions.]]>

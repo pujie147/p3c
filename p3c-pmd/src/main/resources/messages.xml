@@ -41,6 +41,10 @@
     <entry key="java.naming.IbatisMethodQueryForListRule.violation.msg">
         <![CDATA[iBATIS自带的com.ibatis.sqlmap.client.SqlMapClient.queryForList(String statementName,int start,int size)不推荐使用]]>
     </entry>
+    <entry key="java.naming.DaoOrServiceMethodNamingRule.violation.msg">
+        <![CDATA[ Service/DAO 层方法命名规约 前缀 (get|find|get|save|delete|update) and (findxxxList|getxxxCount|getXXXByXXX|findXXListByXXX)]]>
+    </entry>
+
     <entry key="java.exception.AvoidReturnInFinallyRule.rule.msg">
         <![CDATA[不能在finally块中使用return，finally块中的return返回后方法结束执行，不会再执行try块中的return语句。]]>
     </entry>

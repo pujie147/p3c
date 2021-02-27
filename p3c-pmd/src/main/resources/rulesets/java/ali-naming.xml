@@ -5,7 +5,7 @@
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>AlibabaJavaNaming</description>
 
-
+    <!-- 2.1.1 -->
     <rule name="ClassNamingShouldBeCamelRule"
           language="java"
           since="1.6"
@@ -27,6 +27,29 @@
 
     abstract class AbstractActionDemo{
     }
+            ]]>
+        </example>
+    </rule>
+
+    <!-- 2.1.8 -->
+    <rule name="DaoOrServiceMethodNamingRule"
+          language="java"
+          since="1.6"
+          message="java.naming.DaoOrServiceMethodNamingRule.violation.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.naming.DaoOrServiceMethodNamingRule">
+        <priority>2</priority>
+        <example>
+            <![CDATA[
+                interface BaseDAO{
+                    Object get(String id);
+                    List<Object> findBaseList();
+                    Object getBaseListById();
+                }
+                interface BaseService{
+                    Object get(String id);
+                    List<Object> findBaseList();
+                    Object getBaseListById();
+                }
             ]]>
         </example>
     </rule>
@@ -60,6 +83,7 @@
         </example>
     </rule>
 
+    <!-- 2.1.3 -->
     <rule name="LowerCamelCaseVariableNamingRule"
           language="java"
           since="1.6"
@@ -76,6 +100,7 @@
         <priority>2</priority>
     </rule>
 
+    <!-- 2.1.4 -->
     <rule name="ConstantFieldShouldBeUpperCaseRule"
           language="java"
           since="1.6"
@@ -116,6 +141,7 @@
         </example>
     </rule>
 
+    <!-- 2.1.6 -->
     <rule name="PackageNamingRule"
           language="java"
           since="1.6"
@@ -129,6 +155,7 @@
         </example>
     </rule>
 
+    <!-- 2.1.5 -->
     <rule name="BooleanPropertyShouldNotStartWithIsRule"
           language="java"
           since="1.6"
