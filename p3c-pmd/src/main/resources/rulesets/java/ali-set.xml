@@ -5,6 +5,7 @@
     xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>AlibabaJavaSets</description>
 
+    <!--2.6.1-->
     <rule name="ClassCastExceptionWithToArrayRule"
         message="java.set.ClassCastExceptionWithToArrayRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.set.ClassCastExceptionWithToArrayRule">
@@ -23,6 +24,7 @@ Positive example：
         </example>
     </rule>
 
+    <!--2.6.2-->
     <rule name="UnsupportedExceptionWithModifyAsListRule"
         message="java.set.UnsupportedExceptionWithModifyAsListRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.set.UnsupportedExceptionWithModifyAsListRule">
@@ -63,6 +65,7 @@ Positive example:
          </example>
     </rule>
 
+    <!--2.6.11-->
     <rule name="ConcurrentExceptionWithModifyOriginSubListRule"
         message="java.set.ConcurrentExceptionWithModifyOriginSubListRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.set.ConcurrentExceptionWithModifyOriginSubListRule">
@@ -79,7 +82,7 @@ Negative example:
          </example>
     </rule>
 
-
+<!--2.6.3-->
     <rule name="DontModifyInForeachCircleRule"
         message="java.set.DontModifyInForeachCircleRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.set.DontModifyInForeachCircleRule">
@@ -109,7 +112,7 @@ Negative example:
          ]]>
       </example>
     </rule>
-
+<!--2.6.6-->
     <rule name="CollectionInitShouldAssignCapacityRule"
         message="java.set.CollectionInitShouldAssignCapacityRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.set.CollectionInitShouldAssignCapacityRule">
