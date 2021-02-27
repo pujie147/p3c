@@ -80,6 +80,7 @@ Positive example:
         </example>
     </rule>
 
+    <!--2.4.7-->
     <rule name="MethodTooLongRule" language="java"
           message="java.other.MethodTooLongRule.rule.msg"
           class="com.alibaba.p3c.pmd.lang.java.rule.other.MethodTooLongRule">

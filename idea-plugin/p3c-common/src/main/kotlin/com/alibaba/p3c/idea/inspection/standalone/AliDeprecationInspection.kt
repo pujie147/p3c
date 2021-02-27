@@ -33,6 +33,7 @@ import org.jetbrains.annotations.Nls
 import javax.swing.JComponent
 
 /**
+ * 2.5.2
  * @author caikang
  * @date 2016/12/08
  */

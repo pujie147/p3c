@@ -24,6 +24,7 @@
         </example>
     </rule>
 
+    <!--2.4.2-->
     <rule name="NeedBraceRule"
           language="java"
           message="java.flowcontrol.NeedBraceRule.rule.msg"

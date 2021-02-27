@@ -36,6 +36,7 @@ import com.siyeh.ig.psiutils.MethodUtils
 import javax.swing.JComponent
 
 /**
+ *
  * Batch QuickFix Supported
  * @author caikang
  * @date 2016/12/08

@@ -5,6 +5,7 @@
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>AlibabaJavaOop</description>
 
+    <!--2.5.3-->
     <rule name="EqualsAvoidNullRule"
           language="java"
           message="java.oop.EqualsAvoidNullRule.rule.msg"
@@ -23,6 +24,7 @@
         </example>
     </rule>
 
+    <!--2.5.4-->
     <rule name="WrapperTypeEqualityRule"
           language="java"
           message="java.oop.WrapperTypeEqualityRule.rule.msg"
@@ -41,6 +43,7 @@
         </example>
     </rule>
 
+    <!--2.5.5-->
     <rule name="PojoMustUsePrimitiveFieldRule"
           language="java"
           message="java.oop.PojoMustUsePrimitiveFieldRule.rule.msg"
@@ -58,6 +61,7 @@
         </example>
     </rule>
 
+    <!--2.5.6-->
     <rule name="PojoNoDefaultValueRule"
           language="java"
           message="java.oop.PojoNoDefaultValueRule.rule.msg"
