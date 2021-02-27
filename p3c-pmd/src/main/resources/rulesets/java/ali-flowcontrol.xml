@@ -40,6 +40,7 @@
         </example>
     </rule>
 
+
     <rule name="AvoidComplexConditionRule"
           language="java"
           message="java.flowcontrol.AvoidComplexConditionRule.rule.msg"
@@ -66,6 +67,7 @@ Positive example:
         </example>
     </rule>
 
+    <!--2.8.2-->
     <rule name="AvoidNegationOperatorRule"
           language="java"
           message="java.flowcontrol.AvoidNegationOperatorRule.rule.msg"
