@@ -78,6 +78,15 @@
         </example>
     </rule>
 
+    <!--2.5.8-->
+    <rule name="ClassPOJOGetAndIsRepeatedRule"
+          language="java"
+          message="java.oop.ClassPOJOGetAndIsRepeatedRule.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.oop.ClassPOJOGetAndIsRepeatedRule">
+        <priority>3</priority>
+
+    </rule>
+
     <rule name="PojoMustOverrideToStringRule"
           language="java"
           message="java.oop.PojoMustOverrideToStringRule.rule.msg"

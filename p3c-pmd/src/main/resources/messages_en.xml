@@ -107,7 +107,12 @@
     <entry key="java.naming.DaoOrServiceMethodNamingRule.violation.msg">
         <![CDATA[ Service/DAO method naming prefix (get|find|get|save|delete|update) and (findxxxList|getxxxCount|getXXXByXXX|findXXListByXXX)]]>
     </entry>
-
+    <entry key="java.naming.EnumConstantNamingRule.rule.msg">
+        <![CDATA[ Enumeration member names need to be all uppercase, separated by underscores between words:STATUS_NORMAL]]>
+    </entry>
+    <entry key="java.oop.ClassPOJOGetAndIsRepeatedRule.rule.msg">
+        <![CDATA[ It is forbidden to have both isXxx() and getXxx() methods corresponding to attribute xxx in the POJO class ]]>
+    </entry>
 
     <entry key="java.concurrent.AvoidUseTimerRule.violation.msg">Use ScheduledExecutorService instead.</entry>
     <entry key="java.concurrent.AvoidUseTimerRule.rule.msg">
