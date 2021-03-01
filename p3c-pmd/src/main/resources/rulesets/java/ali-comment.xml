@@ -5,6 +5,7 @@
     xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
     <description>AlibabaJavaComments</description>
 
+    <!--2.9.1-->
     <rule name="CommentsMustBeJavadocFormatRule" message="java.comment.CommentsMustBeJavadocFormatRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.comment.CommentsMustBeJavadocFormatRule">
         <description>java.comment.CommentsMustBeJavadocFormatRule.rule.desc</description>
@@ -43,6 +44,7 @@
         </example>
     </rule>
 
+    <!--2.9.2-->
     <rule name="AbstractMethodOrInterfaceMethodMustUseJavadocRule"
         message="java.comment.AbstractMethodOrInterfaceMethodMustUseJavadocRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.comment.AbstractMethodOrInterfaceMethodMustUseJavadocRule">
@@ -83,6 +85,7 @@
         </example>
     </rule>
 
+    <!--2.9.4-->
     <rule name="EnumConstantsMustHaveCommentRule" message="java.comment.EnumConstantsMustHaveCommentRule.rule.msg"
         class="com.alibaba.p3c.pmd.lang.java.rule.comment.EnumConstantsMustHaveCommentRule">
         <priority>2</priority>
@@ -133,6 +136,7 @@
         </example>
     </rule>
 
+    <!--2.9.7-->
     <rule name="RemoveCommentedCodeRule"
           message="java.comment.RemoveCommentedCodeRule.rule.msg"
           class="com.alibaba.p3c.pmd.lang.java.rule.comment.RemoveCommentedCodeRule">
