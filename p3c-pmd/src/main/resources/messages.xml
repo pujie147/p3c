@@ -2,6 +2,12 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
     <!--naming-->
+    <entry key="java.naming.InterfaceAccessModifiersRule.violation.msg">
+        <![CDATA[ 接口类中的方法和属性不要加任何修饰符号，保持代码的简洁性 ]]>
+    </entry>
+    <entry key="java.naming.SpringBeanNamingRule.violation.msg">
+        <![CDATA[ 类名称:BaseVO SpringBean:baseVO springBean是类名首字母小写]]>
+    </entry>
     <entry key="java.naming.AbstractClassShouldStartWithAbstractNamingRule.violation.msg">
         <![CDATA[抽象类【%s】命名应以Abstract或Base开头]]>
     </entry>

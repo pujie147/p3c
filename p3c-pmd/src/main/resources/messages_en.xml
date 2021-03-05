@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
 <properties>
+    <entry key="java.naming.InterfaceAccessModifiersRule.violation.msg">
+        <![CDATA[ Do not add any decoration symbols to the methods and attributes in the interface class to keep the code concise ]]>
+    </entry>
+    <entry key="java.naming.SpringBeanNamingRule.violation.msg">
+        <![CDATA[ UserService Implementation class，bean name ：userService ]]>
+    </entry>
     <entry key="java.naming.AbstractClassShouldStartWithAbstractNamingRule.violation.msg">
         <![CDATA[Abstract class [%s] names must start with Abstract or Base]]>
     </entry>

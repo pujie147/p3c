@@ -32,6 +32,16 @@
         </example>
     </rule>
 
+    <!-- 2.1.2 -->
+    <rule name="SpringBeanNamingRule"
+          language="java"
+          since="1.6"
+          message="java.naming.SpringBeanNamingRule.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.naming.SpringBeanNamingRule">
+        <priority>2</priority>
+    </rule>
+
+
     <!-- 2.1.8 -->
     <rule name="DaoOrServiceMethodNamingRule"
           language="java"
@@ -53,6 +63,15 @@
                 }
             ]]>
         </example>
+    </rule>
+
+    <!-- 2.1.11 -->
+    <rule name="InterfaceAccessModifiersRule"
+          language="java"
+          since="1.6"
+          message="java.naming.InterfaceAccessModifiersRule.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.naming.InterfaceAccessModifiersRule">
+        <priority>2</priority>
     </rule>
 
     <!-- 2.1.14 -->

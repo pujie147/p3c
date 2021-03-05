@@ -20,6 +20,10 @@ import com.alibaba.p3c.pmd.lang.java.rule.AbstractAliRule;
 import com.alibaba.p3c.pmd.lang.java.rule.AbstractPojoRule;
 import com.alibaba.p3c.pmd.lang.java.util.ViolationUtils;
 import com.alibaba.p3c.pmd.lang.java.util.namelist.NameListConfig;
+import net.sourceforge.pmd.RuleContext;
+import net.sourceforge.pmd.lang.ast.Node;
+import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody;
+import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBodyDeclaration;
 import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration;
 
 import java.util.List;
@@ -34,7 +38,7 @@ import java.util.regex.Pattern;
 public class ClassPOJOGetAndIsRepeatedRule extends AbstractPojoRule {
 
     @Override
-    public Object visit(ASTClassOrInterfaceDeclaration node, Object data) {
+    public Object visit(ASTClassOrInterfaceBodyDeclaration node, Object data) {
 //        node.findChildNodesWithXPath("ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/FieldDeclaration");
 //        node.findChildNodesWithXPath("ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/MethodDeclaration");
 //        node.findChildNodesWithXPath("ClassOrInterfaceBody/ClassOrInterfaceBodyDeclaration/MethodDeclaration [@Public='true' and MethodDeclarator[ starts-with[@Image='get']] OR MethodDeclarator[ starts-with[@Image='is']] ");
