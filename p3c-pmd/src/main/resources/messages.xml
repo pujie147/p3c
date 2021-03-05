@@ -373,6 +373,13 @@
     </entry>
 
     <!-- comment -->
+    <entry key="java.comment.DeprecatedCommentedCodeRule.rule.msg">
+        <![CDATA[ 废弃旧方法时标明新方法的链接 ]]>
+    </entry>
+    <entry key="java.comment.DeprecatedCommentedCodeRule.rule.desc">
+        <![CDATA[ 废弃旧方法时标明新方法的链接，如 @see 类名#方法名 ]]>
+    </entry>
+
     <entry key="java.comment.SingleLineCommentedCodeRule.rule.msg">
         <![CDATA[ 注释的双斜线与注释内容之间有且仅有一个空格 ]]>
     </entry>

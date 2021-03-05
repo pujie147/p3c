@@ -162,4 +162,12 @@ Positive example: For codes which are temporarily removed and likely to be reuse
         <description>java.comment.SingleLineCommentedCodeRule.rule.desc</description>
         <priority>3</priority>
     </rule>
+
+    <!--2.9.3-->
+    <rule name="DeprecatedCommentedCodeRule"
+          message="java.comment.DeprecatedCommentedCodeRule.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.comment.DeprecatedCommentedCodeRule">
+        <description>java.comment.DeprecatedCommentedCodeRule.rule.desc</description>
+        <priority>3</priority>
+    </rule>
 </ruleset>

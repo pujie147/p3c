@@ -375,6 +375,13 @@ Explain 3: It is possible that when implementing the lock() method in Lock objec
     </entry>
 
     <!-- comment -->
+    <entry key="java.comment.DeprecatedCommentedCodeRule.rule.msg">
+        <![CDATA[ A link to indicate the new method when the old method is discarded ]]>
+    </entry>
+    <entry key="java.comment.DeprecatedCommentedCodeRule.rule.desc">
+        <![CDATA[ When discarding the old method, mark the link of the new method, such as @see className#method name ]]>
+    </entry>
+
     <entry key="java.comment.SingleLineCommentedCodeRule.rule.msg">
         <![CDATA[ There is only one space between the double slash of the comment and the content of the comment ]]>
     </entry>
