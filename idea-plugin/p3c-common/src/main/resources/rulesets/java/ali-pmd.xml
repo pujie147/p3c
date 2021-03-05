@@ -23,4 +23,6 @@
     <rule ref="rulesets/java/ali-flowcontrol.xml">
         <exclude name="NeedBraceRule"/>
     </rule>
+
+    <rule ref="rulesets/java/ali-controller.xml" />
 </ruleset>

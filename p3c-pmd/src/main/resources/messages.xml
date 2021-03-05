@@ -583,4 +583,11 @@
         <![CDATA[浮点数之间的等值判断，基本数据类型不能用==来比较，包装数据类型不能用equals来判断。]]>
     </entry>
 
+    <!-- controller -->
+    <entry key="java.controller.ContrllerParamAndResultTypeRule.rule.message">
+        <![CDATA[ 新的接口定义参数，必须以 VO 接收参数，返回也用 VO 返回给前端。 ]]>
+    </entry>
+    <entry key="java.controller.ContrllerParamAndResultTypeRule.rule.desc">
+        <![CDATA[ 新的接口定义参数，必须以 VO 接收参数，返回也用 VO 返回给前端。严格控制返回参数内容。 ]]>
+    </entry>
 </properties>

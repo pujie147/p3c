@@ -591,4 +591,11 @@ Positive example:
         <![CDATA[To judge the equivalence of floating-point numbers, == cannot be used for primitive types, while equals cannot be used for wrapper classes.]]>
     </entry>
 
+    <!-- controller -->
+    <entry key="java.controller.ContrllerParamAndResultTypeRule.rule.message">
+        <![CDATA[ The new interface defines the parameters, which must be received by VO, and the return is also returned to the front end with VO. ]]>
+    </entry>
+    <entry key="java.controller.ContrllerParamAndResultTypeRule.rule.desc">
+        <![CDATA[ The new interface defines the parameters, which must be received by VO, and the return is also returned to the front end with VO.strictly control the content of return parameters. ]]>
+    </entry>
 </properties>
