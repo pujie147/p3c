@@ -374,6 +374,12 @@
     </entry>
 
     <!-- comment -->
+    <entry key="java.comment.SingleLineCommentedCodeRule.rule.msg">
+        <![CDATA[ 注释的双斜线与注释内容之间有且仅有一个空格 ]]>
+    </entry>
+    <entry key="java.comment.SingleLineCommentedCodeRule.rule.desc">
+        <![CDATA[ 注释的双斜线与注释内容之间有且仅有一个空格 正例：// 这是示例注释，请注意在双斜线之后有一个空格]]>
+    </entry>
     <entry key="java.comment.CommentsMustBeJavadocFormatRule.rule.msg">
         <![CDATA[类、类属性、类方法的注释必须使用javadoc规范，使用/**内容*/格式，不得使用//xxx方式和/*xxx*/方式。]]>
     </entry>

@@ -47,7 +47,7 @@ public class InterfaceAccessModifiersRule extends AbstractXpathRule {
             if (node instanceof ASTClassOrInterfaceDeclaration) {
                 List<? extends Node> methods = node.findChildNodesWithXPath("//ClassOrInterfaceBodyDeclaration");
                 for(Node method:methods){
-                    ss(((ASTClassOrInterfaceBodyDeclaration) method),node,data);
+                    ss(((ASTClassOrInterfaceBodyDeclaration) method),method,data);
                 }
             } else {
                 super.addViolation(data, node, arg);

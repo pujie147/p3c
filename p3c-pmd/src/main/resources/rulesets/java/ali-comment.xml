@@ -154,4 +154,12 @@ Positive example: For codes which are temporarily removed and likely to be reuse
 ]]>
         </example>
     </rule>
+
+    <!--2.4.6-->
+    <rule name="SingleLineCommentedCodeRule"
+          message="java.comment.SingleLineCommentedCodeRule.rule.msg"
+          class="com.alibaba.p3c.pmd.lang.java.rule.comment.SingleLineCommentedCodeRule">
+        <description>java.comment.SingleLineCommentedCodeRule.rule.desc</description>
+        <priority>3</priority>
+    </rule>
 </ruleset>

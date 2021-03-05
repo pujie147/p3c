@@ -374,6 +374,13 @@ Explain 3: It is possible that when implementing the lock() method in Lock objec
     </entry>
 
     <!-- comment -->
+    <entry key="java.comment.SingleLineCommentedCodeRule.rule.msg">
+        <![CDATA[ There is only one space between the double slash of the comment and the content of the comment ]]>
+    </entry>
+    <entry key="java.comment.SingleLineCommentedCodeRule.rule.desc">
+        <![CDATA[ There is only one space between the double slash of the comment and the content of the comment example：// This is a sample comment, please note that there is a space after the double slash]]>
+    </entry>
+
     <entry key="java.comment.CommentsMustBeJavadocFormatRule.rule.msg">
         <![CDATA[Javadoc should be used for classes, class variables and methods. The format should be '/** comment **/', rather than '// xxx'.]]>
     </entry>
