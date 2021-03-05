@@ -116,9 +116,7 @@
     <entry key="java.naming.EnumConstantNamingRule.rule.msg">
         <![CDATA[ Enumeration member names need to be all uppercase, separated by underscores between words:STATUS_NORMAL]]>
     </entry>
-    <entry key="java.oop.ClassPOJOGetAndIsRepeatedRule.rule.msg">
-        <![CDATA[ It is forbidden to have both isXxx() and getXxx() methods corresponding to attribute xxx in the POJO class ]]>
-    </entry>
+
 
     <entry key="java.concurrent.AvoidUseTimerRule.violation.msg">Use ScheduledExecutorService instead.</entry>
     <entry key="java.concurrent.AvoidUseTimerRule.rule.msg">
@@ -301,6 +299,9 @@ Explain 3: It is possible that when implementing the lock() method in Lock objec
     </entry>
 
     <!-- oop -->
+    <entry key="java.oop.ClassPOJOGetAndIsRepeatedRule.violation.msg">
+        <![CDATA[ It is forbidden to have both isXxx() and getXxx() methods corresponding to attribute xxx in the POJO class ]]>
+    </entry>
     <entry key="java.oop.EqualsAvoidNullRule.violation.msg">
         <![CDATA[[%s] should be argument of equals, but not caller]]>
     </entry>
